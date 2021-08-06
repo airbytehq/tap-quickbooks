@@ -1,10 +1,9 @@
 {
   "properties": {
     "CurrentBalanceWithSubAccounts": {
-      "format": "singer.decimal",
       "type": [
         "null",
-        "string"
+        "number"
       ]
     },
     "AcctNum": {
@@ -92,10 +91,9 @@
       ]
     },
     "CurrentBalance": {
-      "format": "singer.decimal",
       "type": [
         "null",
-        "string"
+        "number"
       ]
     },
     "Active": {

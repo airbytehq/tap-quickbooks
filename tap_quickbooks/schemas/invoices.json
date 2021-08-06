@@ -247,10 +247,9 @@
       ]
     },
     "Balance": {
-      "format": "singer.decimal",
       "type": [
         "null",
-        "string"
+        "number"
       ]
     },
     "AllowOnlinePayment": {
@@ -276,15 +275,13 @@
     "ExchangeRate": {
       "type": [
         "null",
-        "string"
-      ],
-      "format": "singer.decimal"
+        "number"
+      ]
     },
     "HomeTotalAmt": {
-      "format": "singer.decimal",
       "type": [
         "null",
-        "string"
+        "number"
       ]
     },
     "Line": {
@@ -323,10 +320,9 @@
             ]
           },
           "Amount": {
-            "format": "singer.decimal",
             "type": [
               "null",
-              "string"
+              "number"
             ]
           },
           "SalesItemLineDetail": {
@@ -366,10 +362,9 @@
                 ]
               },
               "UnitPrice": {
-                "format": "singer.decimal",
                 "type": [
                   "null",
-                  "string"
+                  "number"
                 ]
               },
               "ServiceDate": {
@@ -400,10 +395,9 @@
                 ]
               },
               "Qty": {
-                "format": "singer.decimal",
                 "type": [
                   "null",
-                  "string"
+                  "number"
                 ]
               }
             },
@@ -490,20 +484,18 @@
     "TxnTaxDetail": {
       "properties": {
         "TotalTax": {
-          "format": "singer.decimal",
           "type": [
             "null",
-            "string"
+            "number"
           ]
         },
         "TaxLine": {
           "items": {
             "properties": {
               "Amount": {
-                "format": "singer.decimal",
                 "type": [
                   "null",
-                  "string"
+                  "number"
                 ]
               },
               "DetailType": {
@@ -515,17 +507,15 @@
               "TaxLineDetail": {
                 "properties": {
                   "NetAmountTaxable": {
-                    "format": "singer.decimal",
                     "type": [
                       "null",
-                      "string"
+                      "number"
                     ]
                   },
                   "TaxPercent": {
-                    "format": "singer.decimal",
                     "type": [
                       "null",
-                      "string"
+                      "number"
                     ]
                   },
                   "TaxRateRef": {
@@ -700,10 +690,9 @@
       ]
     },
     "TotalAmt": {
-      "format": "singer.decimal",
       "type": [
         "null",
-        "string"
+        "number"
       ]
     },
     "patternProperties": {".+": {}}

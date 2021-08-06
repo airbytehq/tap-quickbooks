@@ -264,9 +264,8 @@
           "Amount": {
             "type": [
               "null",
-              "string"
-            ],
-            "format": "singer.decimal"
+              "number"
+            ]
           },
           "LineNum": {
             "type": [
@@ -309,9 +308,8 @@
               "Qty": {
                 "type": [
                   "null",
-                  "string"
-                ],
-                "format": "singer.decimal"
+                  "number"
+                ]
               },
               "UnitPrice": {
                 "type": [
@@ -496,23 +494,20 @@
     "ExchangeRate": {
       "type": [
         "null",
-        "string"
-      ],
-      "format": "singer.decimal"
+        "number"
+      ]
     },
     "HomeTotalAmt": {
-      "format": "singer.decimal",
       "type": [
         "null",
-        "string"
+        "number"
       ]
     },
     "TotalAmt": {
       "type": [
         "null",
-        "string"
-      ],
-      "format": "singer.decimal"
+        "number"
+      ]
     },
     "DepositToAccountRef": {
       "type": [

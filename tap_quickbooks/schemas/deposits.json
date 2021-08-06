@@ -63,10 +63,9 @@
           ]
         },
         "Amount": {
-          "format": "singer.decimal",
           "type": [
             "null",
-            "string"
+            "number"
           ]
         },
         "Memo": {
@@ -109,10 +108,9 @@
             ]
           },
           "Amount": {
-            "format": "singer.decimal",
             "type": [
               "null",
-              "string"
+              "number"
             ]
           },
           "DepositLineDetail": {
@@ -268,18 +266,16 @@
       ]
     },
     "TotalAmt": {
-      "format": "singer.decimal",
       "type": [
         "null",
-        "string"
+        "number"
       ]
     },
     "ExchangeRate": {
       "type": [
         "null",
-        "string"
-      ],
-      "format": "singer.decimal"
+        "number"
+      ]
     },
     "PrivateNote": {
       "type": [

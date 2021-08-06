@@ -163,10 +163,9 @@
       ]
     },
     "Balance": {
-      "format": "singer.decimal",
       "type": [
         "null",
-        "string"
+        "number"
       ]
     },
     "CompanyName": {
@@ -202,10 +201,9 @@
       ]
     },
     "BalanceWithJobs": {
-      "format": "singer.decimal",
       "type": [
         "null",
-        "string"
+        "number"
       ]
     },
     "BillWithParent": {

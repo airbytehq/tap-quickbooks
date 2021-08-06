@@ -118,10 +118,9 @@
       ]
     },
     "TotalAmt": {
-      "format": "singer.decimal",
       "type": [
         "null",
-        "string"
+        "number"
       ]
     },
     "CurrencyRef": {
@@ -193,20 +192,18 @@
     "TxnTaxDetail": {
       "properties": {
         "TotalTax": {
-          "format": "singer.decimal",
           "type": [
             "null",
-            "string"
+            "number"
           ]
         },
         "TaxLine": {
           "items": {
             "properties": {
               "Amount": {
-                "format": "singer.decimal",
                 "type": [
                   "null",
-                  "string"
+                  "number"
                 ]
               },
               "TaxLineDetail": {
@@ -224,10 +221,9 @@
                     ]
                   },
                   "NetAmountTaxable": {
-                    "format": "singer.decimal",
                     "type": [
                       "null",
-                      "string"
+                      "number"
                     ]
                   },
                   "TaxRateRef": {
@@ -355,10 +351,9 @@
             ]
           },
           "Amount": {
-            "format": "singer.decimal",
             "type": [
               "null",
-              "string"
+              "number"
             ]
           },
           "SalesItemLineDetail": {
@@ -384,10 +379,9 @@
                 ]
               },
               "Qty": {
-                "format": "singer.decimal",
                 "type": [
                   "null",
-                  "string"
+                  "number"
                 ]
               },
               "TaxCodeRef": {
@@ -405,10 +399,9 @@
                 ]
               },
               "UnitPrice": {
-                "format": "singer.decimal",
                 "type": [
                   "null",
-                  "string"
+                  "number"
                 ]
               }
             },
@@ -475,15 +468,13 @@
     "ExchangeRate": {
       "type": [
         "null",
-        "string"
-      ],
-      "format": "singer.decimal"
+        "number"
+      ]
     },
     "HomeTotalAmt": {
-      "format": "singer.decimal",
       "type": [
         "null",
-        "string"
+        "number"
       ]
     },
     "ShipAddr": {

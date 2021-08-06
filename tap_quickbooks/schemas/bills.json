@@ -65,10 +65,9 @@
       ]
     },
     "Balance": {
-      "format": "singer.decimal",
       "type": [
         "null",
-        "string"
+        "number"
       ]
     },
     "APAccountRef": {
@@ -234,10 +233,9 @@
             ]
           },
           "Amount": {
-            "format": "singer.decimal",
             "type": [
               "null",
-              "string"
+              "number"
             ]
           },
           "AccountBasedExpenseLineDetail": {
@@ -353,18 +351,16 @@
       ]
     },
     "TotalAmt": {
-      "format": "singer.decimal",
       "type": [
         "null",
-        "string"
+        "number"
       ]
     },
     "ExchangeRate": {
       "type": [
         "null",
-        "string"
-      ],
-      "format": "singer.decimal"
+        "number"
+      ]
     },
     "DepartmentRef": {
       "type": [

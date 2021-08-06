@@ -154,9 +154,8 @@
   "BillRate": {
     "type": [
       "null",
-      "string"
-    ],
-    "format": "singer.decimal"
+      "number"
+    ]
   },
   "Suffix": {
     "type": [

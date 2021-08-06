@@ -102,10 +102,9 @@
       "items": {
         "properties": {
           "Amount": {
-            "format": "singer.decimal",
             "type": [
               "null",
-              "string"
+              "number"
             ]
           },
           "Description": {
@@ -198,10 +197,9 @@
       ]
     },
     "TotalAmt": {
-      "format": "singer.decimal",
       "type": [
         "null",
-        "string"
+        "number"
       ]
     },
     "ApplyTaxAfterDiscount": {
@@ -424,15 +422,13 @@
     "ExchangeRate": {
       "type": [
         "null",
-        "string"
-      ],
-      "format": "singer.decimal"
+        "number"
+      ]
     },
     "HomeTotalAmt": {
-      "format": "singer.decimal",
       "type": [
         "null",
-        "string"
+        "number"
       ]
     },
     "MetaData": {

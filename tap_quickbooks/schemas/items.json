@@ -146,11 +146,9 @@
       ]
     },
     "PurchaseCost": {
-      "format": "singer.decimal",
       "type": [
         "null",
-        "integer",
-        "string"
+        "number"
       ]
     },
     "MetaData": {

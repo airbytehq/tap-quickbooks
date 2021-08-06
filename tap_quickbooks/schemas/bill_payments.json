@@ -101,9 +101,8 @@
     "TotalAmt": {
       "type": [
         "null",
-        "string"
-      ],
-      "format": "singer.decimal"
+        "number"
+      ]
     },
     "PayType": {
       "type": [
@@ -220,9 +219,8 @@
           "Amount": {
             "type": [
               "null",
-              "string"
-            ],
-            "format": "singer.decimal"
+              "number"
+            ]
           },
           "LinkedTxn": {
             "type": [
@@ -262,9 +260,8 @@
     "ExchangeRate": {
       "type": [
         "null",
-        "string"
-      ],
-      "format": "singer.decimal"
+        "number"
+      ]
     }
   }
 }

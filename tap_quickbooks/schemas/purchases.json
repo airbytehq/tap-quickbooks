@@ -111,16 +111,14 @@
     "ExchangeRate": {
       "type": [
         "null",
-        "string"
-      ],
-      "format": "singer.decimal"
+        "number"
+      ]
     },
     "TotalAmt": {
       "type": [
         "null",
-        "string"
-      ],
-      "format": "singer.decimal"
+        "number"
+      ]
     },
     "PrintStatus": {
       "type": [
@@ -257,9 +255,8 @@
               "UnitPrice": {
                 "type": [
                   "null",
-                  "string"
-                ],
-                "format": "singer.decimal"
+                  "number"
+                ]
               },
               "TaxCodeRef": {
                 "type": [
@@ -348,9 +345,8 @@
           "Amount": {
             "type": [
               "null",
-              "string"
-            ],
-            "format": "singer.decimal"
+              "number"
+            ]
           },
           "DetailType": {
             "type": [
