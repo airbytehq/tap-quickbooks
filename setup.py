@@ -13,7 +13,6 @@ setup(name='tap-quickbooks',
           'singer-python==5.12.1',
           'requests==2.23.0',
           'requests_oauthlib==1.3.0',
-          'jsonschema==2.6.0',
       ],
       extras_require={
           'dev': [
